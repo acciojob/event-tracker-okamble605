@@ -1,13 +1,12 @@
-
 import React from "react";
-import './../styles/App.css';
+import CalendarComponent from "./components/CalendarComponent";
 
 const App = () => {
   return (
     <div>
-        {/* Do not remove the main div */}
+      <CalendarComponent />
     </div>
-  )
-}
+  );
+};
 
-export default App
+export default App;
